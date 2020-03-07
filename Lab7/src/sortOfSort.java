@@ -4,10 +4,6 @@ public class sortOfSort { // used this site for visualization and help tracing o
 
     public sortOfSort(){}
 
-    public void sortArray(int[] arr){ //helper method that sorts the array first.
-        Arrays.sort(arr);
-
-    }
 
     public void sortOfSorts(int[] arr){
         int end = arr.length-1;
@@ -15,8 +11,6 @@ public class sortOfSort { // used this site for visualization and help tracing o
         int start = 0;
         int incCount = 0;
 
-        sortArray(arr); //sort the array first.
-        
         while(start < end) {
 
             //first find the max number in array
